@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Playwrite+IE+Guides&display=swap');
+.profile-container{
+    background-color: white;
+    position :relative;
+    top:90px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(rgb(187, 139, 243) 50%,rgb(132, 236, 236)); */
+}
+.grp{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    background:linear-gradient(to top left,rgb(236, 69, 228),indigo,purple);
+
+
+}
+.cols-1{
+    display: flex;
+    flex-direction: column;
+    /* background:linear-gradient(to top left,rgb(118, 72, 241),rgb(91, 75, 237)); */
+    height: max-content;
+    width:500px;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font-style: italic;
+    font-size: 16px;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.cols-1 img{
+    height: 100%;
+    width:100%;
+}
+.col-2>.heading{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: "Dancing Script", serif;
+}
+.col-2{
+    justify-content: center;
+}
+.number-input{
+  padding: 14px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+  width: 200px;
+  height: 50px;
+}
+
+.addmoney{margin: auto;}
+.col-2 .money{
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col-2 .money-text{
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(164, 183, 183)
+}
+.addmoney>input[type=text]{
+    width: 200px;
+    height: 50px;
+    /* padding: 5px 10px; */
+    
+    display: inline-block;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  /* Set a style for all buttons */
+  .amtbutton {
+    background-color: #139cc2;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+  }
+  .walletbtn {
+    background-color: #1322c2;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+  }
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+
+ h2{
+  text-align: center;
+  font-family: "Dancing Script", serif;
+ }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 60%;
+    border: 1px solid #ddd;
+    margin: auto;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 14px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }

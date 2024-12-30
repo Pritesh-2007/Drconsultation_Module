@@ -1,0 +1,8 @@
+.drcard{
+    position: relative;
+    top:10px;
+    /* background-color: antiquewhite; */
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(5,1fr);
+}

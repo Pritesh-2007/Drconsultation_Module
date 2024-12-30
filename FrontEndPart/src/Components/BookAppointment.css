@@ -1,0 +1,103 @@
+.appointment-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+     position: relative;
+     padding-bottom: 50px;
+    top:100px;}
+.docdiv,.paymentdiv{
+    background-color: rgb(242, 243, 242);
+    padding-bottom:5%;
+
+}
+.paymentdiv{
+    display: grid;
+    grid-template-rows:200px auto;
+}
+.drfield h1{
+    font-family:var(--heading-font)
+}
+
+.drfield{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis:500px;
+    max-width: 550px;
+    margin: auto;
+}
+.divbox{
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(to left,rgb(82, 153, 198),rgb(83, 223, 223));  
+    justify-content: center;
+    align-items: center;
+}
+.amountdiv{
+    font-size: 28px;
+    font-weight: 700;
+    color:white;
+
+}
+.paybtn{
+padding: 12px 14px;
+width: max-content;
+background:linear-gradient(to top right,rgb(71, 175, 245),rgb(116, 38, 171))  ;
+box-sizing: border-box;
+border-radius: 5px;
+margin-top: 10px;
+cursor: pointer;  
+}
+.watingroom{
+    background-color: none;
+}
+.appointment-container::-webkit-scrollbar {
+    display: none;
+}
+.grp .col-2::-webkit-scrollbar {
+    display: none;
+}
+@media screen and (max-width:600px) {
+    .appointment-container{
+        grid-template-columns: auto;
+        grid-template-rows:1fr 1fr;
+        overflow: scroll;
+        scrollbar-width: none; /* For Firefox */ -ms-overflow-style: none;
+        top:30px;
+    }    
+
+    .nav-container img{
+        width:50px;
+        margin: 5px 10px;
+        
+    }
+    .nav-container h1{
+        font-size: 20px;
+    }
+    .drcard{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-container{
+        top:30px;
+        padding: 10px;
+    }
+    .profile-container{
+        top:50px;
+    }
+    .grp{
+        flex-direction: column;
+        width: 500px;
+        margin: auto;
+        top:30px;
+    }
+    .cols-1
+    {
+        width: 100%;
+    }
+    .modal-content{
+        width: 75%;
+    }
+}

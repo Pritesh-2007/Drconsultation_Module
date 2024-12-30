@@ -1,0 +1,50 @@
+.home-container{
+    display: block;
+    position: relative;
+    margin: 0px;
+    top:100px;
+    padding: 10px;
+}
+.ayurveda-tour{
+    display: flex;
+    flex-basis:80%;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+    background:linear-gradient(blanchedalmond,rgb(148, 50, 50));
+}
+.col-1, .col-2{
+    display: flex;
+    flex-basis: 50%;
+    overflow: scroll;
+}
+.col-1::-webkit-scrollbar {
+    display: none;
+}
+.col-2::-webkit-scrollbar {
+    display: none;
+}
+.col-2{
+    display: flex;
+    perspective: 500px;
+}
+.col-1{
+    display: flex;
+    gap: 50px;
+    padding:20px 20px;
+    flex-direction: column;
+    min-height: fit-content;
+}
+.col-2 img{
+ height: 100%;
+ width:100%;
+ border-radius: 5%;
+ transition: all 0.2s ease-in;
+}
+.col-2 img:hover{
+    transform: rotateX(35deg);
+    /* transform: translateZ(-100px); */
+}
+body{
+    scrollbar-width: none; /* For Firefox */ -ms-overflow-style: none;
+}
